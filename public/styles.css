@@ -1,0 +1,178 @@
+﻿* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #222;
+  background: #f4f4f4;
+}
+
+.page {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.toolbar,
+.table-shell {
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.toolbar {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.toolbar-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.toolbar-row:last-child {
+  margin-bottom: 0;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+input,
+button {
+  height: 32px;
+  font-size: 13px;
+}
+
+input {
+  padding: 4px 8px;
+  border: 1px solid #bbb;
+}
+
+button {
+  padding: 0 10px;
+  border: 1px solid #bbb;
+  background: #f7f7f7;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: wait;
+  opacity: 0.7;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  color: #555;
+  font-size: 12px;
+}
+
+.status {
+  display: none;
+  padding: 6px 8px;
+  background: #fff6d8;
+  border: 1px solid #ead48a;
+  font-size: 12px;
+}
+
+.status.visible {
+  display: block;
+}
+
+.table-shell {
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  min-width: 980px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 6px 8px;
+  border-top: 1px solid #e3e3e3;
+  vertical-align: middle;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background: #fafafa;
+  border-top: 0;
+  text-align: left;
+  font-size: 12px;
+}
+
+.rank,
+.points,
+.appearances {
+  white-space: nowrap;
+  width: 1%;
+}
+
+.model-cell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.thumb-link {
+  width: 44px;
+  height: 44px;
+  flex: 0 0 auto;
+  display: block;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.model-text {
+  min-width: 0;
+}
+
+.model-link {
+  color: #111;
+  text-decoration: none;
+  display: block;
+  line-height: 1.25;
+}
+
+.model-link:hover {
+  text-decoration: underline;
+}
+
+.model-meta,
+.published-at,
+.category {
+  color: #666;
+  font-size: 12px;
+  line-height: 1.25;
+}
+
+@media (max-width: 760px) {
+  .page {
+    padding: 8px;
+  }
+
+  .toolbar-row {
+    gap: 6px;
+  }
+}

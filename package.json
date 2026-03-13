@@ -1,0 +1,12 @@
+{
+  "name": "sitestat-3ddd-top",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Top 3ddd models table with daily refresh",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "^24.39.0"
+  }
+}

@@ -1,0 +1,78 @@
+﻿<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>3ddd stats</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="page">
+      <section class="toolbar">
+        <div class="toolbar-row">
+          <label>
+            <span>С</span>
+            <input id="from-date" type="date">
+          </label>
+          <label>
+            <span>По</span>
+            <input id="to-date" type="date">
+          </label>
+          <button id="apply-button" type="button">Показать</button>
+          <button id="collect-button" type="button">Собрать сегодня</button>
+        </div>
+        <div class="toolbar-row presets">
+          <button class="preset" data-days="1" type="button">1 день</button>
+          <button class="preset" data-days="7" type="button">7 дней</button>
+          <button class="preset" data-days="30" type="button">30 дней</button>
+          <button class="preset" data-days="90" type="button">90 дней</button>
+          <button class="preset" data-days="all" type="button">Всё</button>
+        </div>
+        <div class="meta">
+          <span id="summary">Загрузка...</span>
+          <span id="updated-at"></span>
+        </div>
+        <div class="status" id="status"></div>
+      </section>
+
+      <section class="table-shell">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Модель</th>
+              <th>Дата</th>
+              <th>Категория</th>
+              <th>Баллы</th>
+              <th>Дней</th>
+            </tr>
+          </thead>
+          <tbody id="models-body"></tbody>
+        </table>
+      </section>
+    </main>
+
+    <template id="row-template">
+      <tr>
+        <td class="rank"></td>
+        <td>
+          <div class="model-cell">
+            <a class="thumb-link" target="_blank" rel="noreferrer noopener">
+              <img class="thumb" alt="">
+            </a>
+            <div class="model-text">
+              <a class="model-link" target="_blank" rel="noreferrer noopener"></a>
+              <span class="model-meta"></span>
+            </div>
+          </div>
+        </td>
+        <td class="published-at"></td>
+        <td class="category"></td>
+        <td class="points"></td>
+        <td class="appearances"></td>
+      </tr>
+    </template>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
