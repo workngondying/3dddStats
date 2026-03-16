@@ -1,12 +1,11 @@
 {
-  "name": "sitestat-3ddd-top",
+  "name": "sitestat-github-pages",
   "version": "1.0.0",
   "private": true,
-  "description": "Top 3ddd models table with daily refresh",
+  "description": "Static 3ddd stats site for GitHub Pages",
   "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "puppeteer-core": "^24.39.0"
+    "collect": "node scripts/collect.js",
+    "build": "node scripts/build-static-data.js",
+    "collect:build": "node scripts/collect.js && node scripts/build-static-data.js"
   }
 }

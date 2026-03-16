@@ -1,4 +1,4 @@
-﻿* {
+* {
   box-sizing: border-box;
 }
 
@@ -61,11 +61,6 @@ button {
   border: 1px solid #bbb;
   background: #f7f7f7;
   cursor: pointer;
-}
-
-button:disabled {
-  cursor: wait;
-  opacity: 0.7;
 }
 
 .meta {
