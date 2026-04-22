@@ -18,6 +18,20 @@
             <span>&#1055;&#1086;</span>
             <input id="to-date" type="date">
           </label>
+          <label class="checkbox-label">
+            <input id="single-day-toggle" type="checkbox">
+            <span>&#1058;&#1086;&#1083;&#1100;&#1082;&#1086; 1 &#1076;&#1077;&#1085;&#1100;</span>
+          </label>
+          <label id="single-day-wrap" class="single-day-wrap hidden">
+            <span>&#1044;&#1077;&#1085;&#1100;</span>
+            <input id="single-date" type="date" disabled>
+          </label>
+          <label>
+            <span>&#1050;&#1072;&#1090;&#1077;&#1075;&#1086;&#1088;&#1080;&#1103;</span>
+            <select id="category-filter">
+              <option value="">&#1042;&#1089;&#1077; &#1082;&#1072;&#1090;&#1077;&#1075;&#1086;&#1088;&#1080;&#1080;</option>
+            </select>
+          </label>
           <button id="apply-button" type="button">
             &#1055;&#1086;&#1082;&#1072;&#1079;&#1072;&#1090;&#1100;
           </button>
@@ -74,6 +88,7 @@
       </tr>
     </template>
 
+    <script src="./data/site-data.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>

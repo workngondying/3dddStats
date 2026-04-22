@@ -2,6 +2,10 @@ const UNKNOWN_VALUE = "\u041d\u0435 \u0443\u043a\u0430\u0437\u0430\u043d\u0430";
 
 const fromInput = document.getElementById("from-date");
 const toInput = document.getElementById("to-date");
+const singleDayToggle = document.getElementById("single-day-toggle");
+const singleDayWrap = document.getElementById("single-day-wrap");
+const singleDateInput = document.getElementById("single-date");
+const categoryFilter = document.getElementById("category-filter");
 const applyButton = document.getElementById("apply-button");
 const summaryNode = document.getElementById("summary");
 const updatedNode = document.getElementById("updated-at");
@@ -34,9 +38,9 @@ function formatPeriodText(fromDate, toDate, snapshotCount) {
     return "\u041d\u0435\u0442 \u0434\u0438\u0430\u043f\u0430\u0437\u043e\u043d\u0430";
   }
   if (fromDate === toDate) {
-    return `${fromDate} · ${snapshotCount} \u0441\u0440\u0435\u0437`;
+    return `${fromDate} - ${snapshotCount} \u0441\u0440\u0435\u0437`;
   }
-  return `${fromDate} - ${toDate} · ${snapshotCount} \u0441\u0440\u0435\u0437\u043e\u0432`;
+  return `${fromDate} - ${toDate} - ${snapshotCount} \u0441\u0440\u0435\u0437\u043e\u0432`;
 }
 
 function renderRows(models) {
@@ -58,7 +62,7 @@ function renderRows(models) {
     modelLink.href = model.url;
     modelLink.textContent = model.title;
     modelMeta.textContent =
-      `\u041b\u0443\u0447\u0448\u0430\u044f \u043f\u043e\u0437\u0438\u0446\u0438\u044f: #${model.bestRank} · ` +
+      `\u041b\u0443\u0447\u0448\u0430\u044f \u043f\u043e\u0437\u0438\u0446\u0438\u044f: #${model.bestRank} - ` +
       `\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430: ${model.latestPage}`;
 
     row.querySelector(".published-at").textContent = model.publishedAt || UNKNOWN_VALUE;
@@ -135,6 +139,41 @@ function aggregateSnapshots(fromDate, toDate) {
   };
 }
 
+function getCategoryOptions(models) {
+  return [...new Set(models.map((model) => model.category || UNKNOWN_VALUE))].sort((left, right) =>
+    left.localeCompare(right, "ru"),
+  );
+}
+
+function syncCategoryOptions(models) {
+  const currentValue = categoryFilter.value;
+  const categories = getCategoryOptions(models);
+
+  categoryFilter.textContent = "";
+
+  const allOption = document.createElement("option");
+  allOption.value = "";
+  allOption.textContent = "\u0412\u0441\u0435 \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438";
+  categoryFilter.appendChild(allOption);
+
+  for (const category of categories) {
+    const option = document.createElement("option");
+    option.value = category;
+    option.textContent = category;
+    categoryFilter.appendChild(option);
+  }
+
+  categoryFilter.value = categories.includes(currentValue) ? currentValue : "";
+}
+
+function filterByCategory(models) {
+  if (!categoryFilter.value) {
+    return models;
+  }
+
+  return models.filter((model) => (model.category || UNKNOWN_VALUE) === categoryFilter.value);
+}
+
 function setRange(days) {
   const dates = siteData.availableDates || [];
   if (!dates.length) return;
@@ -157,24 +196,66 @@ function setRange(days) {
   toInput.value = max;
 }
 
-function applyRange() {
+function syncSingleDayMode() {
+  const singleDayMode = singleDayToggle.checked;
+
+  fromInput.disabled = singleDayMode;
+  toInput.disabled = singleDayMode;
+  singleDateInput.disabled = !singleDayMode;
+  singleDayWrap.classList.toggle("hidden", !singleDayMode);
+
+  presetButtons.forEach((button) => {
+    button.disabled = singleDayMode;
+  });
+
+  if (singleDayMode && !singleDateInput.value) {
+    singleDateInput.value = siteData.range.max || "";
+  }
+}
+
+function getSelectedRange() {
+  if (singleDayToggle.checked) {
+    const singleDate = singleDateInput.value || siteData.range.max;
+    return {
+      fromDate: singleDate,
+      toDate: singleDate,
+    };
+  }
+
   const fromDate = fromInput.value || siteData.range.max;
   const toDate = toInput.value || siteData.range.max;
-  const normalizedFrom = fromDate > toDate ? toDate : fromDate;
-  const normalizedTo = fromDate > toDate ? fromDate : toDate;
-  const payload = aggregateSnapshots(normalizedFrom, normalizedTo);
 
-  renderRows(payload.models);
+  return {
+    fromDate: fromDate > toDate ? toDate : fromDate,
+    toDate: fromDate > toDate ? fromDate : toDate,
+  };
+}
+
+function applyRange() {
+  const { fromDate, toDate } = getSelectedRange();
+  const payload = aggregateSnapshots(fromDate, toDate);
+
+  syncCategoryOptions(payload.models);
+
+  const filteredModels = filterByCategory(payload.models).map((model, index) => ({
+    ...model,
+    rank: index + 1,
+  }));
+  const filteredMissingCount = filteredModels.filter(
+    (model) => model.category === UNKNOWN_VALUE || model.publishedAt === UNKNOWN_VALUE,
+  ).length;
+
+  renderRows(filteredModels);
   summaryNode.textContent =
-    `${formatPeriodText(payload.fromDate, payload.toDate, payload.snapshotCount)} · ` +
-    `${payload.count} \u043c\u043e\u0434\u0435\u043b\u0435\u0439`;
+    `${formatPeriodText(payload.fromDate, payload.toDate, payload.snapshotCount)} - ` +
+    `${filteredModels.length} \u043c\u043e\u0434\u0435\u043b\u0435\u0439`;
   updatedNode.textContent = siteData.latestCollectedAt
     ? `\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0439 \u0441\u0431\u043e\u0440: ${formatDateTime(siteData.latestCollectedAt)}`
     : "";
 
-  if (payload.missingDetailsCount > 0) {
+  if (filteredMissingCount > 0) {
     showStatus(
-      `\u0423 ${payload.missingDetailsCount} \u043c\u043e\u0434\u0435\u043b\u0435\u0439 \u043f\u043e\u043a\u0430 \u043d\u0435\u0442 ` +
+      `\u0423 ${filteredMissingCount} \u043c\u043e\u0434\u0435\u043b\u0435\u0439 \u043f\u043e\u043a\u0430 \u043d\u0435\u0442 ` +
         `\u0434\u0430\u0442\u044b \u0438\u043b\u0438 \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438 \u0432 \u0430\u0440\u0445\u0438\u0432\u0435.`,
     );
   } else {
@@ -182,13 +263,26 @@ function applyRange() {
   }
 }
 
+async function loadSiteData() {
+  if (window.__SITE_DATA__) {
+    return window.__SITE_DATA__;
+  }
+
+  const response = await fetch("./data/site-data.json", { cache: "no-store" });
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status}`);
+  }
+  return response.json();
+}
+
 async function init() {
   try {
-    const response = await fetch("./data/site-data.json", { cache: "no-store" });
-    siteData = await response.json();
+    siteData = await loadSiteData();
 
     fromInput.value = siteData.range.max || "";
     toInput.value = siteData.range.max || "";
+    singleDateInput.value = siteData.range.max || "";
+    syncSingleDayMode();
     applyRange();
   } catch (error) {
     summaryNode.textContent =
@@ -198,6 +292,13 @@ async function init() {
 }
 
 applyButton.addEventListener("click", applyRange);
+singleDayToggle.addEventListener("change", () => {
+  syncSingleDayMode();
+  applyRange();
+});
+singleDateInput.addEventListener("change", applyRange);
+categoryFilter.addEventListener("change", applyRange);
+
 presetButtons.forEach((button) => {
   button.addEventListener("click", () => {
     setRange(button.dataset.days);

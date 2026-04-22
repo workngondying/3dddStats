@@ -2,6 +2,10 @@ name: Build And Deploy
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
   schedule:
     - cron: "15 3 * * *"
 
@@ -33,8 +37,9 @@ jobs:
 
       - name: Collect latest data
         env:
-          MAX_DETAILS_PER_RUN: "25"
-          DETAIL_DELAY_MS: "1500"
+          MAX_DETAILS_PER_RUN: "60"
+          DETAIL_DELAY_MS: "500"
+          SITE_TIMEZONE: "Europe/Minsk"
         run: npm run collect
 
       - name: Build static data
@@ -44,7 +49,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update daily snapshots"
-          file_pattern: data/*.json public/data/*.json
+          file_pattern: data/*.json public/data/*.json public/data/*.js
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

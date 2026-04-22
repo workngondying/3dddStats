@@ -9,12 +9,14 @@ const SNAPSHOTS_FILE = path.join(DATA_DIR, "snapshots.json");
 const DETAILS_FILE = path.join(DATA_DIR, "details-cache.json");
 const SITE_DATA_FILE = path.join(GENERATED_DIR, "site-data.json");
 const LIST_PAGES = [1, 2, 3, 4, 5];
+const EXPECTED_MODELS_PER_PAGE = 60;
 const UNKNOWN_VALUE = "\u041d\u0435 \u0443\u043a\u0430\u0437\u0430\u043d\u0430";
 const UNTITLED_VALUE = "\u0411\u0435\u0437 \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u044f";
 const REQUEST_TIMEOUT_MS = 30000;
 const MAX_FETCH_RETRIES = 3;
 const DETAIL_DELAY_MS = Number(process.env.DETAIL_DELAY_MS || 1500);
 const MAX_DETAILS_PER_RUN = Number(process.env.MAX_DETAILS_PER_RUN || 25);
+const SITE_TIMEZONE = process.env.SITE_TIMEZONE || "Europe/Minsk";
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -60,6 +62,15 @@ function normalizeWhitespace(value) {
   return decodeMojibake(String(value || "")).replace(/\s+/g, " ").trim();
 }
 
+function normalizeCategoryValue(value) {
+  const normalized = normalizeWhitespace(value);
+  if (!normalized) {
+    return "";
+  }
+
+  return normalized.replace(/^\d+\s*\/\s*/, "").trim();
+}
+
 function normalizeModel(model) {
   return {
     title: normalizeWhitespace(model.title) || UNTITLED_VALUE,
@@ -67,7 +78,7 @@ function normalizeModel(model) {
     imageUrl: model.imageUrl,
     page: Number(model.page || 0),
     points: Number(model.points || 0),
-    category: normalizeWhitespace(model.category) || UNKNOWN_VALUE,
+    category: normalizeCategoryValue(model.category) || UNKNOWN_VALUE,
     publishedAt: normalizeWhitespace(model.publishedAt) || UNKNOWN_VALUE,
   };
 }
@@ -100,7 +111,7 @@ async function loadDetailsCache() {
         title: normalizeWhitespace(entry.title),
         imageUrl: entry.imageUrl,
         url,
-        category: normalizeWhitespace(entry.category) || UNKNOWN_VALUE,
+        category: normalizeCategoryValue(entry.category) || UNKNOWN_VALUE,
         publishedAt: normalizeWhitespace(entry.publishedAt) || UNKNOWN_VALUE,
         checkedAt: entry.checkedAt || null,
       },
@@ -113,7 +124,14 @@ async function saveDetailsCache(details) {
 }
 
 function getTodayKey() {
-  return new Date().toISOString().slice(0, 10);
+  const formatter = new Intl.DateTimeFormat("en-CA", {
+    timeZone: SITE_TIMEZONE,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  });
+
+  return formatter.format(new Date());
 }
 
 function toProxyUrl(targetUrl) {
@@ -153,7 +171,7 @@ function extractCatalogSection(markdown) {
   const endCandidates = [
     markdown.indexOf("[\u0421\u043b\u0435\u0434\u0443\u044e\u0449\u0430\u044f \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430]"),
     markdown.indexOf("\u0412\u0441\u0435\u0433\u043e "),
-  ].filter((value) => value >= 0);
+  ].filter((value) => value > startIndex);
 
   if (startIndex === -1) {
     return markdown;
@@ -164,6 +182,17 @@ function extractCatalogSection(markdown) {
   }
 
   return markdown.slice(startIndex, Math.min(...endCandidates));
+}
+
+function isValidCatalogModel(model) {
+  return (
+    model.title &&
+    model.title.toLowerCase() !== "null" &&
+    model.url &&
+    !model.url.endsWith("/show/null") &&
+    model.imageUrl &&
+    !model.imageUrl.endsWith("/no-image.svg")
+  );
 }
 
 function parseListPage(markdown, pageNumber) {
@@ -186,7 +215,7 @@ function parseListPage(markdown, pageNumber) {
     });
   }
 
-  return Array.from(new Map(models.map((model) => [model.url, model])).values());
+  return Array.from(new Map(models.filter(isValidCatalogModel).map((model) => [model.url, model])).values());
 }
 
 function parseCategory(markdown) {
@@ -205,15 +234,18 @@ function parseCategory(markdown) {
   if (!categories.length) {
     const titleMatch = markdown.match(/^Title:\s+(.+?)\s+-\s+3D \u043c\u043e\u0434\u0435\u043b\u044c/m);
     if (titleMatch) {
-      const parts = normalizeWhitespace(titleMatch[1]).split(" - ");
+      const parts = normalizeWhitespace(titleMatch[1])
+        .split(" - ")
+        .map((part) => part.trim())
+        .filter(Boolean);
       if (parts.length >= 2) {
-        return parts.slice(1).join(" / ");
+        return normalizeCategoryValue(parts.at(-1)) || UNKNOWN_VALUE;
       }
     }
     return UNKNOWN_VALUE;
   }
 
-  return categories.slice(0, 2).join(" / ");
+  return normalizeCategoryValue(categories.slice(0, 2).join(" / ")) || UNKNOWN_VALUE;
 }
 
 function parsePublishedAt(markdown) {
@@ -242,15 +274,29 @@ function mergeDetails(model, detailsCache) {
 }
 
 async function fetchCatalogModels(detailsCache) {
-  const pageMarkdowns = await Promise.all(
-    LIST_PAGES.map((pageNumber) =>
-      fetchText(toProxyUrl(`https://3ddd.ru/3dmodels?order=sell_rating&page=${pageNumber}`)),
-    ),
+  async function fetchPageModels(pageNumber, attempt = 1) {
+    const markdown = await fetchText(toProxyUrl(`https://3ddd.ru/3dmodels?order=sell_rating&page=${pageNumber}`));
+    const models = parseListPage(markdown, pageNumber);
+
+    if (models.length !== EXPECTED_MODELS_PER_PAGE) {
+      if (attempt < MAX_FETCH_RETRIES) {
+        await sleep(1500 * attempt);
+        return fetchPageModels(pageNumber, attempt + 1);
+      }
+
+      throw new Error(
+        `Parsed ${models.length} valid models from page ${pageNumber}, expected ${EXPECTED_MODELS_PER_PAGE}`,
+      );
+    }
+
+    return models.map((model) => mergeDetails(model, detailsCache));
+  }
+
+  const pageModels = await Promise.all(
+    LIST_PAGES.map((pageNumber) => fetchPageModels(pageNumber)),
   );
 
-  return pageMarkdowns.flatMap((markdown, index) =>
-    parseListPage(markdown, LIST_PAGES[index]).map((model) => mergeDetails(model, detailsCache)),
-  );
+  return pageModels.flat();
 }
 
 async function fetchModelDetails(model) {
@@ -372,6 +418,7 @@ module.exports = {
   DATA_DIR,
   DETAILS_FILE,
   DETAIL_DELAY_MS,
+  EXPECTED_MODELS_PER_PAGE,
   GENERATED_DIR,
   LIST_PAGES,
   MAX_DETAILS_PER_RUN,
@@ -387,6 +434,7 @@ module.exports = {
   loadDetailsCache,
   loadSnapshots,
   normalizeModel,
+  normalizeCategoryValue,
   normalizeWhitespace,
   saveDetailsCache,
   saveSnapshots,
