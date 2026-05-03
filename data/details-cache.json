@@ -7492,8 +7492,8 @@
     "imageUrl": "https://b5.3ddd.ru/media/cache/sky_model_new_thumb_ang/model_images/0000/0000/8247/8247965.691ee7273b7b9.jpeg",
     "url": "https://3ddd.ru/3dmodels/show/tualetnyi-stolik-lux-ng25",
     "category": "Не указана",
-    "publishedAt": "Не указана",
-    "checkedAt": "2026-05-02T05:45:31.732Z"
+    "publishedAt": "20 ноября 2025",
+    "checkedAt": "2026-05-03T06:13:32.932Z"
   },
   "https://3ddd.ru/3dmodels/show/gaggenau-cooktops-400-series": {
     "title": "Gaggenau Cooktops 400 Series",
@@ -9451,9 +9451,9 @@
     "title": "ЕСТЕЛЛА Кровать",
     "imageUrl": "https://b4.3ddd.ru/media/cache/sky_model_new_thumb_ang/model_images/0000/0000/8686/8686280.69dc6c3082b98.jpeg",
     "url": "https://3ddd.ru/3dmodels/show/estella-krovat",
-    "category": "Не указана",
-    "publishedAt": "Не указана",
-    "checkedAt": "2026-05-02T05:45:49.164Z"
+    "category": "Кровати",
+    "publishedAt": "13 апреля 2026",
+    "checkedAt": "2026-05-03T06:13:19.046Z"
   },
   "https://3ddd.ru/3dmodels/show/dereviannye-zhaliuzi-na-panoramnoe-okno-h-2500": {
     "title": "Деревянные жалюзи на панорамное окно H-2500",
@@ -9542,5 +9542,53 @@
     "category": "Другие предметы интерьера",
     "publishedAt": "22 февраля 2024",
     "checkedAt": "2026-05-02T05:47:09.261Z"
+  },
+  "https://3ddd.ru/3dmodels/show/3dstat-v1-3-statistika-prodazh-na-3ddd": {
+    "title": "3DStat v1.3 | Статистика продаж на 3ddd",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/sky_model_new_thumb_ang/model_images/0000/0000/8735/8735141.69f268b732363.png",
+    "url": "https://3ddd.ru/3dmodels/show/3dstat-v1-3-statistika-prodazh-na-3ddd",
+    "category": "Скрипты",
+    "publishedAt": "30 апреля 2026",
+    "checkedAt": "2026-05-03T06:12:57.100Z"
+  },
+  "https://3ddd.ru/3dmodels/show/curtain-395": {
+    "title": "Curtain #395",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/sky_model_new_thumb_ang/model_images/0000/0000/8712/8712423.69e8cd4e1a763.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/curtain-395",
+    "category": "Шторы",
+    "publishedAt": "24 апреля 2026",
+    "checkedAt": "2026-05-03T06:13:11.326Z"
+  },
+  "https://3ddd.ru/3dmodels/show/lavsit-baddi-bed-dvuspalnaia-krovat-baddi-1": {
+    "title": "Lavsit Baddi Bed, Двуспальная Кровать Бадди",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/sky_model_new_thumb_ang/model_images/0000/0000/8712/8712866.69e8e8690d588.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/lavsit-baddi-bed-dvuspalnaia-krovat-baddi-1",
+    "category": "Кровати",
+    "publishedAt": "22 апреля 2026",
+    "checkedAt": "2026-05-03T06:13:26.471Z"
+  },
+  "https://3ddd.ru/3dmodels/show/torsher_xux_ot_neutro_home": {
+    "title": "Торшер Xux от Neutro Home",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/sky_model_new_thumb_ang/model_images/0000/0000/7491/7491477.67ce7e1f0c1c2.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/torsher_xux_ot_neutro_home",
+    "category": "Торшеры",
+    "publishedAt": "12 марта 2025",
+    "checkedAt": "2026-05-03T06:13:40.496Z"
+  },
+  "https://3ddd.ru/3dmodels/show/wall-panel-sunburst-light-1": {
+    "title": "Wall Panel “Sunburst Light”",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/sky_model_new_thumb_ang/model_images/0000/0000/8291/8291661.6930f32f88632.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/wall-panel-sunburst-light-1",
+    "category": "Другие предметы интерьера",
+    "publishedAt": "5 декабря 2025",
+    "checkedAt": "2026-05-03T06:13:47.470Z"
+  },
+  "https://3ddd.ru/3dmodels/show/imba_bokovoi_stolik_divan_ru": {
+    "title": "Имба боковой столик Divan.ru",
+    "imageUrl": "https://b5.3ddd.ru/media/cache/sky_model_new_thumb_ang/model_images/0000/0000/8009/8009048.68b8b088c2b8f.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/imba_bokovoi_stolik_divan_ru",
+    "category": "Столы",
+    "publishedAt": "12 августа 2025",
+    "checkedAt": "2026-05-03T06:13:54.521Z"
   }
 }
