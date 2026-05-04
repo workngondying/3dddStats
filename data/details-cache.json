@@ -7493,7 +7493,7 @@
     "url": "https://3ddd.ru/3dmodels/show/tualetnyi-stolik-lux-ng25",
     "category": "Не указана",
     "publishedAt": "20 ноября 2025",
-    "checkedAt": "2026-05-03T06:13:32.932Z"
+    "checkedAt": "2026-05-04T06:23:18.395Z"
   },
   "https://3ddd.ru/3dmodels/show/gaggenau-cooktops-400-series": {
     "title": "Gaggenau Cooktops 400 Series",
@@ -9590,5 +9590,53 @@
     "category": "Столы",
     "publishedAt": "12 августа 2025",
     "checkedAt": "2026-05-03T06:13:54.521Z"
+  },
+  "https://3ddd.ru/3dmodels/show/nabor-smesitelei-altrobagno-bilancia": {
+    "title": "Набор смесителей AltroBagno Bilancia",
+    "imageUrl": "https://b5.3ddd.ru/media/cache/sky_model_new_thumb_ang/model_images/0000/0000/8373/8373347.695909d150b43.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/nabor-smesitelei-altrobagno-bilancia",
+    "category": "Смеситель",
+    "publishedAt": "4 января 2026",
+    "checkedAt": "2026-05-04T06:22:45.108Z"
+  },
+  "https://3ddd.ru/3dmodels/show/41zero42-stories": {
+    "title": "41zero42 STORIES",
+    "imageUrl": "https://b5.3ddd.ru/media/cache/sky_model_new_thumb_ang/model_images/0000/0000/8296/8296779.69331c3f7a2f8.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/41zero42-stories",
+    "category": "Кафель, Плитка",
+    "publishedAt": "7 декабря 2025",
+    "checkedAt": "2026-05-04T06:22:52.814Z"
+  },
+  "https://3ddd.ru/3dmodels/show/loft-modern-4-kh-mest-uglovoi": {
+    "title": "ЛОФТ МОДЕРН 4-х мест.угловой",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/sky_model_new_thumb_ang/model_images/0000/0000/8688/8688461.69dd31eb5247c.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/loft-modern-4-kh-mest-uglovoi",
+    "category": "Диваны",
+    "publishedAt": "14 апреля 2026",
+    "checkedAt": "2026-05-04T06:23:03.681Z"
+  },
+  "https://3ddd.ru/3dmodels/show/eloise-limed-ash-upholstered-bed": {
+    "title": "Eloise Limed Ash Upholstered Bed",
+    "imageUrl": "https://b5.3ddd.ru/media/cache/sky_model_new_thumb_ang/model_images/0000/0000/8358/8358029.694e944d9db28.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/eloise-limed-ash-upholstered-bed",
+    "category": "Кровати",
+    "publishedAt": "26 декабря 2025",
+    "checkedAt": "2026-05-04T06:23:11.403Z"
+  },
+  "https://3ddd.ru/3dmodels/show/decorative-set-143-1": {
+    "title": "Decorative set 143",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/sky_model_new_thumb_ang/model_images/0000/0000/8721/8721414.69ed14718ec03.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/decorative-set-143-1",
+    "category": "Декоративный набор",
+    "publishedAt": "29 апреля 2026",
+    "checkedAt": "2026-05-04T06:23:25.629Z"
+  },
+  "https://3ddd.ru/3dmodels/show/kamaz_54901_1": {
+    "title": "KAMAZ 54901",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/sky_model_new_thumb_ang/model_images/0000/0000/4095/4095137.624698ab30d75.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/kamaz_54901_1",
+    "category": "Не указана",
+    "publishedAt": "1 апреля 2022",
+    "checkedAt": "2026-05-04T06:23:32.483Z"
   }
 }
