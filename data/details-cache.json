@@ -13283,9 +13283,9 @@
     "title": "Vintage Decorative Set 20",
     "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8835/8835063.6a1d70d7e6e2f.jpeg",
     "url": "https://3ddd.ru/3dmodels/show/vintage-decorative-set-20",
-    "category": "Не указана",
-    "publishedAt": "Не указана",
-    "checkedAt": "2026-06-06T06:40:34.564Z"
+    "category": "Декор / Декоративный набор",
+    "publishedAt": "2 июня 2026",
+    "checkedAt": "2026-06-07T07:14:07.320Z"
   },
   "https://3ddd.ru/3dmodels/show/dereviannye_iashchiki_i_kartonnye_korobki_dlia_sklada": {
     "title": "Деревянные ящики и картонные коробки для склада",
@@ -13302,5 +13302,37 @@
     "category": "Кровати",
     "publishedAt": "20 мая 2026",
     "checkedAt": "2026-06-06T06:40:48.789Z"
+  },
+  "https://3ddd.ru/3dmodels/show/sceneradar-1-0": {
+    "title": "SceneRadar 1.0",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8840/8840061.6a1f1c4ed6a17.png",
+    "url": "https://3ddd.ru/3dmodels/show/sceneradar-1-0",
+    "category": "Скрипты",
+    "publishedAt": "2 июня 2026",
+    "checkedAt": "2026-06-07T07:13:59.913Z"
+  },
+  "https://3ddd.ru/3dmodels/show/carpet-01-by-diorart": {
+    "title": "Carpet 01 By Diorart",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8806/8806510.6a108b7191247.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/carpet-01-by-diorart",
+    "category": "Декор / Ковры",
+    "publishedAt": "24 мая 2026",
+    "checkedAt": "2026-06-07T07:14:15.813Z"
+  },
+  "https://3ddd.ru/3dmodels/show/ruffle-bed-minotti-2": {
+    "title": "Ruffle bed Minotti 2",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8797/8797853.6a0ce8c55d9bd.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/ruffle-bed-minotti-2",
+    "category": "Кровати",
+    "publishedAt": "21 мая 2026",
+    "checkedAt": "2026-06-07T07:14:22.779Z"
+  },
+  "https://3ddd.ru/3dmodels/show/shkaf_vitrina_so_steklom_leesburg_hooker": {
+    "title": "Шкаф витрина со стеклом Leesburg Hooker",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/6678/6678998.66724aebb4dce.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/shkaf_vitrina_so_steklom_leesburg_hooker",
+    "category": "Не указана",
+    "publishedAt": "Не указана",
+    "checkedAt": "2026-06-07T07:14:30.313Z"
   }
 }
