@@ -14649,11 +14649,11 @@
   },
   "https://3ddd.ru/3dmodels/show/home-bar-wardrobe-2": {
     "title": "Home bar Wardrobe №2",
-    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8776/8776670.6a0443ea9c426.png",
+    "imageUrl": "https://b5.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8776/8776670.6a0443ea9c426.png",
     "url": "https://3ddd.ru/3dmodels/show/home-bar-wardrobe-2",
-    "category": "Не указана",
-    "publishedAt": "Не указана",
-    "checkedAt": "2026-06-21T08:12:03.180Z"
+    "category": "Шкафы",
+    "publishedAt": "14 мая 2026",
+    "checkedAt": "2026-06-22T09:23:01.591Z"
   },
   "https://3ddd.ru/3dmodels/show/metlakhskaia-plitka-petergof-oktagon-146mm": {
     "title": "Метлахская плитка Петергоф октагон 146мм",
@@ -14665,11 +14665,11 @@
   },
   "https://3ddd.ru/3dmodels/show/material-dereva-ng1": {
     "title": "Материал дерева NG1",
-    "imageUrl": "https://b5.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8819/8819669.6a16906bebb8f.jpeg",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8819/8819669.6a16906bebb8f.jpeg",
     "url": "https://3ddd.ru/3dmodels/show/material-dereva-ng1",
-    "category": "Не указана",
-    "publishedAt": "Не указана",
-    "checkedAt": "2026-06-21T08:12:31.336Z"
+    "category": "Дерево",
+    "publishedAt": "27 мая 2026",
+    "checkedAt": "2026-06-22T09:23:27.249Z"
   },
   "https://3ddd.ru/3dmodels/show/seamless-wood-materials-02-exotica-02": {
     "title": "Seamless Wood Materials 02 | Exotica 02",
@@ -14677,7 +14677,7 @@
     "url": "https://3ddd.ru/3dmodels/show/seamless-wood-materials-02-exotica-02",
     "category": "Не указана",
     "publishedAt": "Не указана",
-    "checkedAt": "2026-06-21T08:12:35.705Z"
+    "checkedAt": "2026-06-22T09:23:09.575Z"
   },
   "https://3ddd.ru/3dmodels/show/equipe-earth": {
     "title": "Equipe Earth",
@@ -14733,7 +14733,7 @@
     "url": "https://3ddd.ru/3dmodels/show/minotti-elyne-dining",
     "category": "Не указана",
     "publishedAt": "Не указана",
-    "checkedAt": "2026-06-21T08:13:24.327Z"
+    "checkedAt": "2026-06-22T09:23:45.763Z"
   },
   "https://3ddd.ru/3dmodels/show/kover-44-miden-ot-divan-ru": {
     "title": "Ковер 44 Мидэн от Диван.ру",
@@ -14801,10 +14801,74 @@
   },
   "https://3ddd.ru/3dmodels/show/bouquet-of-flowers-branches-in-vase-88": {
     "title": "Bouquet of Flowers Branches in Vase 88",
-    "imageUrl": "https://b5.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8841/8841442.6a1fe85c71a14.jpeg",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8841/8841442.6a1fe85c71a14.jpeg",
     "url": "https://3ddd.ru/3dmodels/show/bouquet-of-flowers-branches-in-vase-88",
+    "category": "Букеты",
+    "publishedAt": "4 июня 2026",
+    "checkedAt": "2026-06-22T09:23:16.722Z"
+  },
+  "https://3ddd.ru/3dmodels/show/decorative-set-ch35": {
+    "title": "Decorative set Ch35",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8478/8478714.698492f98a4b7.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/decorative-set-ch35",
     "category": "Не указана",
     "publishedAt": "Не указана",
-    "checkedAt": "2026-06-21T08:14:25.886Z"
+    "checkedAt": "2026-06-22T09:23:21.054Z"
+  },
+  "https://3ddd.ru/3dmodels/show/krovat-sanderlait-klassika": {
+    "title": "Кровать Сандерлайт Классика",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8833/8833223.6a1c9d6630cbe.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/krovat-sanderlait-klassika",
+    "category": "Кровати",
+    "publishedAt": "31 мая 2026",
+    "checkedAt": "2026-06-22T09:23:34.108Z"
+  },
+  "https://3ddd.ru/3dmodels/show/liustra-brage-chandelier": {
+    "title": "Люстра Brage chandelier",
+    "imageUrl": "https://b5.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8646/8646366.69c933d18bb7f.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/liustra-brage-chandelier",
+    "category": "Не указана",
+    "publishedAt": "Не указана",
+    "checkedAt": "2026-06-22T09:23:41.674Z"
+  },
+  "https://3ddd.ru/3dmodels/show/dekorativnyi-set-008-frantsuzskii-vintazh-midsenchuri": {
+    "title": "Декоративный сет 008. Французский винтаж. Мидсенчури.",
+    "imageUrl": "https://b5.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8854/8854638.6a2597cdda250.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/dekorativnyi-set-008-frantsuzskii-vintazh-midsenchuri",
+    "category": "Декор / Декоративный набор",
+    "publishedAt": "8 июня 2026",
+    "checkedAt": "2026-06-22T09:23:52.174Z"
+  },
+  "https://3ddd.ru/3dmodels/show/melow-sofa-divan-priamoi-melou": {
+    "title": "Melow sofa, Диван прямой Мелоу",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8521/8521462.699419d5bfe3a.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/melow-sofa-divan-priamoi-melou",
+    "category": "Диваны",
+    "publishedAt": "17 февраля 2026",
+    "checkedAt": "2026-06-22T09:23:59.965Z"
+  },
+  "https://3ddd.ru/3dmodels/show/floorgen-tools-1-5-9": {
+    "title": "FloorGen Tools 1.5.9",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/2417/2417772.5cb323888fa1d.png",
+    "url": "https://3ddd.ru/3dmodels/show/floorgen-tools-1-5-9",
+    "category": "Скрипты",
+    "publishedAt": "16 апреля 2019",
+    "checkedAt": "2026-06-22T09:24:07.560Z"
+  },
+  "https://3ddd.ru/3dmodels/show/zhurnalnyi-stol-s-aliexpress": {
+    "title": "Журнальный стол с aliexpress",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8652/8652918.69cbfa0454cb1.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/zhurnalnyi-stol-s-aliexpress",
+    "category": "Столы",
+    "publishedAt": "1 апреля 2026",
+    "checkedAt": "2026-06-22T09:24:14.202Z"
+  },
+  "https://3ddd.ru/3dmodels/show/optimalnye_okna_i_balkonnye_dveri_plastik_pvkh": {
+    "title": "Оптимальные окна и балконные двери пластик ПВХ",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/5673/5673135.650751b0cccc2.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/optimalnye_okna_i_balkonnye_dveri_plastik_pvkh",
+    "category": "Окна",
+    "publishedAt": "17 сентября 2023",
+    "checkedAt": "2026-06-22T09:24:20.527Z"
   }
 }
