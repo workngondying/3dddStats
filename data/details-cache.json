@@ -15529,11 +15529,11 @@
   },
   "https://3ddd.ru/3dmodels/show/osk-wood-002-seamless-wood-texture": {
     "title": "OSK Wood 002 Seamless Wood Texture",
-    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8875/8875781.6a2e9c4ee8c2d.jpeg",
+    "imageUrl": "https://b5.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8875/8875781.6a2e9c4ee8c2d.jpeg",
     "url": "https://3ddd.ru/3dmodels/show/osk-wood-002-seamless-wood-texture",
-    "category": "Не указана",
-    "publishedAt": "Не указана",
-    "checkedAt": "2026-06-29T08:27:35.733Z"
+    "category": "Дерево",
+    "publishedAt": "15 июня 2026",
+    "checkedAt": "2026-06-30T07:04:38.865Z"
   },
   "https://3ddd.ru/3dmodels/show/fanera_set_02": {
     "title": "Фанера set 02",
@@ -15542,5 +15542,85 @@
     "category": "Текстуры / Дерево",
     "publishedAt": "24 мая 2024",
     "checkedAt": "2026-06-29T08:27:44.128Z"
+  },
+  "https://3ddd.ru/3dmodels/show/ruffle-bed-by-minotti-5": {
+    "title": "Ruffle bed by Minotti",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8898/8898812.6a381995d4590.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/ruffle-bed-by-minotti-5",
+    "category": "Кровати",
+    "publishedAt": "22 июня 2026",
+    "checkedAt": "2026-06-30T07:04:22.445Z"
+  },
+  "https://3ddd.ru/3dmodels/show/vintage-decorative-set-21-1": {
+    "title": "Vintage Decorative Set 21",
+    "imageUrl": "https://b5.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8902/8902402.6a395e01f276f.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/vintage-decorative-set-21-1",
+    "category": "Декор / Декоративный набор",
+    "publishedAt": "23 июня 2026",
+    "checkedAt": "2026-06-30T07:04:30.896Z"
+  },
+  "https://3ddd.ru/3dmodels/show/ostrov-dlia-garderobnoi": {
+    "title": "Остров для гардеробной",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8318/8318380.693c5f724f927.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/ostrov-dlia-garderobnoi",
+    "category": "Не указана",
+    "publishedAt": "12 декабря 2025",
+    "checkedAt": "2026-06-30T07:04:49.305Z"
+  },
+  "https://3ddd.ru/3dmodels/show/vitrina-konditerskaia-polius-kc70": {
+    "title": "Витрина кондитерская Полюс KC70",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8774/8774987.6a0377cc593f7.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/vitrina-konditerskaia-polius-kc70",
+    "category": "Не указана",
+    "publishedAt": "Не указана",
+    "checkedAt": "2026-06-30T07:04:56.627Z"
+  },
+  "https://3ddd.ru/3dmodels/show/furniture-composition-793-shkaf": {
+    "title": "Furniture Composition | 793 | Шкаф",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8773/8773321.6a03069295766.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/furniture-composition-793-shkaf",
+    "category": "Шкафы",
+    "publishedAt": "12 мая 2026",
+    "checkedAt": "2026-06-30T07:05:05.339Z"
+  },
+  "https://3ddd.ru/3dmodels/show/garden-plants-outdoor-plants-757": {
+    "title": "Garden Plants - Outdoor Plants 757",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8837/8837403.6a1e333650fff.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/garden-plants-outdoor-plants-757",
+    "category": "Уличные",
+    "publishedAt": "2 июня 2026",
+    "checkedAt": "2026-06-30T07:05:12.450Z"
+  },
+  "https://3ddd.ru/3dmodels/show/beatrix-bed-by-mcmullin": {
+    "title": "Beatrix Bed By McMullin",
+    "imageUrl": "https://b5.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8835/8835437.6a1d8c339dacf.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/beatrix-bed-by-mcmullin",
+    "category": "Кровати",
+    "publishedAt": "5 июня 2026",
+    "checkedAt": "2026-06-30T07:05:19.904Z"
+  },
+  "https://3ddd.ru/3dmodels/show/material-dereva-tekstura-3": {
+    "title": "Материал дерева | Текстура | 3",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8859/8859070.6a272cc481320.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/material-dereva-tekstura-3",
+    "category": "Дерево",
+    "publishedAt": "8 июня 2026",
+    "checkedAt": "2026-06-30T07:05:27.458Z"
+  },
+  "https://3ddd.ru/3dmodels/show/bathroom-accessories-h89": {
+    "title": "Bathroom accessories-H89",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8894/8894751.6a36329269f70.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/bathroom-accessories-h89",
+    "category": "Декор для санузла",
+    "publishedAt": "21 июня 2026",
+    "checkedAt": "2026-06-30T07:05:34.132Z"
+  },
+  "https://3ddd.ru/3dmodels/show/dvukhiarusnaia-detskaia-krovat-kids-bedroom-077-1": {
+    "title": "Двухъярусная детская кровать Kids bedroom 077",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8885/8885186.6a321613c0846.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/dvukhiarusnaia-detskaia-krovat-kids-bedroom-077-1",
+    "category": "Не указана",
+    "publishedAt": "Не указана",
+    "checkedAt": "2026-06-30T07:05:40.961Z"
   }
 }
