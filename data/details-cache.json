@@ -15773,7 +15773,7 @@
     "url": "https://3ddd.ru/3dmodels/show/bosendorfer_200_1",
     "category": "Не указана",
     "publishedAt": "14 августа 2019",
-    "checkedAt": "2026-07-11T05:51:32.211Z"
+    "checkedAt": "2026-07-12T06:14:13.575Z"
   },
   "https://3ddd.ru/3dmodels/show/elyne-dining-chair-01": {
     "title": "Elyne Dining Chair 01",
@@ -16641,11 +16641,11 @@
   },
   "https://3ddd.ru/3dmodels/show/kitchen-accessories-set-075": {
     "title": "kitchen accessories set 075",
-    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8904/8904098.6a3a440dcb3a2.jpeg",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8904/8904098.6a3a440dcb3a2.jpeg",
     "url": "https://3ddd.ru/3dmodels/show/kitchen-accessories-set-075",
-    "category": "Не указана",
-    "publishedAt": "Не указана",
-    "checkedAt": "2026-07-11T05:50:13.870Z"
+    "category": "Мелочь для кухни",
+    "publishedAt": "24 июня 2026",
+    "checkedAt": "2026-07-12T06:13:44.680Z"
   },
   "https://3ddd.ru/3dmodels/show/disco_balls_1": {
     "title": "Disco balls",
@@ -16693,7 +16693,7 @@
     "url": "https://3ddd.ru/3dmodels/show/aerogril-xiaomi-dual-zone-air-fryer-1",
     "category": "Не указана",
     "publishedAt": "2 апреля 2026",
-    "checkedAt": "2026-07-11T05:50:24.382Z"
+    "checkedAt": "2026-07-12T06:13:51.048Z"
   },
   "https://3ddd.ru/3dmodels/show/minotti-orion-corner-modular-sofa-2": {
     "title": "Minotti Orion Corner Modular Sofa",
@@ -16750,5 +16750,29 @@
     "category": "Кухня / Кухни",
     "publishedAt": "27 марта 2025",
     "checkedAt": "2026-07-11T05:51:24.697Z"
+  },
+  "https://3ddd.ru/3dmodels/show/elegant-tulle-curtains-with-roller-blind-and-blackout-set": {
+    "title": "Elegant Tulle Curtains with Roller Blind and Blackout Set",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8898/8898495.6a37fadc17092.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/elegant-tulle-curtains-with-roller-blind-and-blackout-set",
+    "category": "Шторы",
+    "publishedAt": "22 июня 2026",
+    "checkedAt": "2026-07-12T06:13:58.183Z"
+  },
+  "https://3ddd.ru/3dmodels/show/la-redoute-iloa": {
+    "title": "La Redoute Iloa",
+    "imageUrl": "https://b5.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8455/8455816.697ba270484c5.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/la-redoute-iloa",
+    "category": "Не указана",
+    "publishedAt": "30 января 2026",
+    "checkedAt": "2026-07-12T06:14:05.524Z"
+  },
+  "https://3ddd.ru/3dmodels/show/puf-kerli-4": {
+    "title": "Пуф Керли",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8829/8829254.6a1b154244afa.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/puf-kerli-4",
+    "category": "Другая мягкая мебель",
+    "publishedAt": "3 июня 2026",
+    "checkedAt": "2026-07-12T06:14:20.739Z"
   }
 }
