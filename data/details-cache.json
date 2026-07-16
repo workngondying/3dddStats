@@ -15773,7 +15773,7 @@
     "url": "https://3ddd.ru/3dmodels/show/bosendorfer_200_1",
     "category": "Не указана",
     "publishedAt": "14 августа 2019",
-    "checkedAt": "2026-07-15T05:44:08.899Z"
+    "checkedAt": "2026-07-16T05:56:53.517Z"
   },
   "https://3ddd.ru/3dmodels/show/elyne-dining-chair-01": {
     "title": "Elyne Dining Chair 01",
@@ -16921,11 +16921,11 @@
   },
   "https://3ddd.ru/3dmodels/show/furniture-for-the-hallway-jt-1047": {
     "title": "Furniture for the hallway jt 1047",
-    "imageUrl": "https://b5.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8933/8933916.6a46e7b5c34a8.jpeg",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8933/8933916.6a46e7b5c34a8.jpeg",
     "url": "https://3ddd.ru/3dmodels/show/furniture-for-the-hallway-jt-1047",
-    "category": "Не указана",
+    "category": "Прихожая",
     "publishedAt": "4 июля 2026",
-    "checkedAt": "2026-07-15T05:42:08.871Z"
+    "checkedAt": "2026-07-16T05:54:15.725Z"
   },
   "https://3ddd.ru/3dmodels/show/workplace-27": {
     "title": "Workplace 27",
@@ -17025,27 +17025,27 @@
   },
   "https://3ddd.ru/3dmodels/show/wood-floor-103": {
     "title": "Wood Floor 103",
-    "imageUrl": "https://b5.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8865/8865639.6a29a3e41fe94.jpeg",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8865/8865639.6a29a3e41fe94.jpeg",
     "url": "https://3ddd.ru/3dmodels/show/wood-floor-103",
-    "category": "Не указана",
-    "publishedAt": "Не указана",
-    "checkedAt": "2026-07-15T05:42:21.555Z"
+    "category": "Напольные покрытия",
+    "publishedAt": "11 июня 2026",
+    "checkedAt": "2026-07-16T05:54:30.288Z"
   },
   "https://3ddd.ru/3dmodels/show/lilliam-armchair": {
     "title": "Lilliam Armchair",
-    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8905/8905362.6a3aa61fb279d.jpeg",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8905/8905362.6a3aa61fb279d.jpeg",
     "url": "https://3ddd.ru/3dmodels/show/lilliam-armchair",
-    "category": "Не указана",
+    "category": "Кресла",
     "publishedAt": "23 июня 2026",
-    "checkedAt": "2026-07-15T05:42:45.615Z"
+    "checkedAt": "2026-07-16T05:54:51.540Z"
   },
   "https://3ddd.ru/3dmodels/show/chandelier-lobby-lampatron": {
     "title": "Chandelier LOBBY Lampatron",
     "imageUrl": "https://b5.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8748/8748210.69f89d61cff8f.jpeg",
     "url": "https://3ddd.ru/3dmodels/show/chandelier-lobby-lampatron",
-    "category": "Не указана",
-    "publishedAt": "Не указана",
-    "checkedAt": "2026-07-15T05:42:50.839Z"
+    "category": "Подвесной",
+    "publishedAt": "6 мая 2026",
+    "checkedAt": "2026-07-16T05:54:23.069Z"
   },
   "https://3ddd.ru/3dmodels/show/tv-wall-set-371": {
     "title": "TV Wall - Set 371",
@@ -17113,10 +17113,154 @@
   },
   "https://3ddd.ru/3dmodels/show/bashennyi_kran_1": {
     "title": "Башенный кран",
-    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/6272/6272839.65e5661f18fc3.jpeg",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/6272/6272839.65e5661f18fc3.jpeg",
     "url": "https://3ddd.ru/3dmodels/show/bashennyi_kran_1",
+    "category": "Разное",
+    "publishedAt": "4 марта 2024",
+    "checkedAt": "2026-07-16T05:55:06.386Z"
+  },
+  "https://3ddd.ru/3dmodels/show/lg-washer-and-dryer-set-01": {
+    "title": "LG Washer and Dryer Set 01",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8267/8267359.6926ca12d9f6a.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/lg-washer-and-dryer-set-01",
+    "category": "Бытовая техника",
+    "publishedAt": "27 ноября 2025",
+    "checkedAt": "2026-07-16T05:54:36.706Z"
+  },
+  "https://3ddd.ru/3dmodels/show/bottle_collection_e2": {
+    "title": "Bottle Collection e2",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/7619/7619722.680b5ee547ec9.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/bottle_collection_e2",
+    "category": "Еда и напитки",
+    "publishedAt": "26 апреля 2025",
+    "checkedAt": "2026-07-16T05:54:44.062Z"
+  },
+  "https://3ddd.ru/3dmodels/show/puf-tywin-stool-pouf": {
+    "title": "Пуф tywin stool pouf",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8583/8583180.69abfc07aad8c.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/puf-tywin-stool-pouf",
+    "category": "Другая мягкая мебель",
+    "publishedAt": "8 марта 2026",
+    "checkedAt": "2026-07-16T05:54:58.608Z"
+  },
+  "https://3ddd.ru/3dmodels/show/lobby-milk-pendant": {
+    "title": "Lobby Milk Pendant",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8462/8462347.697e5dda7d3e2.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/lobby-milk-pendant",
+    "category": "Не указана",
+    "publishedAt": "1 февраля 2026",
+    "checkedAt": "2026-07-16T05:55:17.379Z"
+  },
+  "https://3ddd.ru/3dmodels/show/wall-decor-113": {
+    "title": "Wall Decor 113",
+    "imageUrl": "https://b5.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8904/8904732.6a3a7e4cb215c.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/wall-decor-113",
+    "category": "Не указана",
+    "publishedAt": "23 июня 2026",
+    "checkedAt": "2026-07-16T05:55:23.249Z"
+  },
+  "https://3ddd.ru/3dmodels/show/puf-pilou-by-la-redoute": {
+    "title": "Пуф Pilou by La Redoute",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8677/8677407.69d78fed1b71d.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/puf-pilou-by-la-redoute",
+    "category": "Другая мягкая мебель",
+    "publishedAt": "9 апреля 2026",
+    "checkedAt": "2026-07-16T05:55:30.475Z"
+  },
+  "https://3ddd.ru/3dmodels/show/bathroom-furniture-by-fauset-bathroom-329-corona": {
+    "title": "Bathroom furniture by Fauset Bathroom 329 corona",
+    "imageUrl": "https://b5.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8880/8880623.6a3039f37b0c9.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/bathroom-furniture-by-fauset-bathroom-329-corona",
+    "category": "Мебель",
+    "publishedAt": "16 июня 2026",
+    "checkedAt": "2026-07-16T05:55:37.450Z"
+  },
+  "https://3ddd.ru/3dmodels/show/berta-prikrovatnaia-tumba-cosmo": {
+    "title": "Berta прикроватная тумба Cosmo",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8634/8634041.69c39b0f60f3d.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/berta-prikrovatnaia-tumba-cosmo",
+    "category": "Тумбы, комоды",
+    "publishedAt": "25 марта 2026",
+    "checkedAt": "2026-07-16T05:55:44.223Z"
+  },
+  "https://3ddd.ru/3dmodels/show/bocci-141-random-lights-3": {
+    "title": "Bocci 141 random lights",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8919/8919163.6a413872cb10a.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/bocci-141-random-lights-3",
+    "category": "Подвесной",
+    "publishedAt": "30 июня 2026",
+    "checkedAt": "2026-07-16T05:55:51.695Z"
+  },
+  "https://3ddd.ru/3dmodels/show/nabor-okhranno-pozharnogo-oborudovaniia-dlia-obshchestvennykh-mest": {
+    "title": "Набор охранно- пожарного оборудования для общественных мест",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8862/8862099.6a284cbe83e5f.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/nabor-okhranno-pozharnogo-oborudovaniia-dlia-obshchestvennykh-mest",
+    "category": "Разное",
+    "publishedAt": "9 июня 2026",
+    "checkedAt": "2026-07-16T05:55:58.585Z"
+  },
+  "https://3ddd.ru/3dmodels/show/il-paralume-marina-challender-1": {
+    "title": "IL Paralume Marina Challender",
+    "imageUrl": "https://b5.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8949/8949853.6a4dedfd01457.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/il-paralume-marina-challender-1",
+    "category": "Подвесной",
+    "publishedAt": "9 июля 2026",
+    "checkedAt": "2026-07-16T05:56:05.746Z"
+  },
+  "https://3ddd.ru/3dmodels/show/metalloplastikovye-okna-i-dveri-set-8": {
+    "title": "Металлопластиковые Окна и Двери Сет 8",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8715/8715578.69ea275d953db.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/metalloplastikovye-okna-i-dveri-set-8",
+    "category": "Окна",
+    "publishedAt": "23 апреля 2026",
+    "checkedAt": "2026-07-16T05:56:12.216Z"
+  },
+  "https://3ddd.ru/3dmodels/show/bathroom-furniture-nik-21": {
+    "title": "Bathroom furniture nik 21",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8932/8932156.6a4662c80d699.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/bathroom-furniture-nik-21",
+    "category": "Мебель",
+    "publishedAt": "4 июля 2026",
+    "checkedAt": "2026-07-16T05:56:19.814Z"
+  },
+  "https://3ddd.ru/3dmodels/show/decorative-set-h208": {
+    "title": "Decorative set H208",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8926/8926327.6a43f23d63669.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/decorative-set-h208",
+    "category": "Декоративный набор",
+    "publishedAt": "1 июля 2026",
+    "checkedAt": "2026-07-16T05:56:26.112Z"
+  },
+  "https://3ddd.ru/3dmodels/show/modern-double-bed-142": {
+    "title": "Modern Double Bed 142",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8914/8914714.6a3ed6cbbceb5.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/modern-double-bed-142",
     "category": "Не указана",
     "publishedAt": "Не указана",
-    "checkedAt": "2026-07-15T05:44:00.985Z"
+    "checkedAt": "2026-07-16T05:56:29.656Z"
+  },
+  "https://3ddd.ru/3dmodels/show/akrilovyi_kamen_dlia_stoleshnits": {
+    "title": "Акриловый камень для столешниц",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/6857/6857803.66b06946d1ae1.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/akrilovyi_kamen_dlia_stoleshnits",
+    "category": "Камень",
+    "publishedAt": "5 августа 2024",
+    "checkedAt": "2026-07-16T05:56:36.386Z"
+  },
+  "https://3ddd.ru/3dmodels/show/kitchen_modern_09": {
+    "title": "Kitchen modern 09",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/7631/7631385.6810b2ea54b74.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/kitchen_modern_09",
+    "category": "Кухни",
+    "publishedAt": "3 мая 2025",
+    "checkedAt": "2026-07-16T05:56:43.153Z"
+  },
+  "https://3ddd.ru/3dmodels/show/podstavka_dlia_zontov_brennan_ralph_lauren": {
+    "title": "Подставка для зонтов Brennan Ralph Lauren",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/7965/7965747.68a5e50eabdcb.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/podstavka_dlia_zontov_brennan_ralph_lauren",
+    "category": "Не указана",
+    "publishedAt": "Не указана",
+    "checkedAt": "2026-07-16T05:56:47.408Z"
   }
 }
