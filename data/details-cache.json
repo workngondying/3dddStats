@@ -15772,8 +15772,8 @@
     "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/4542/4542495.63382e6df274d.jpeg",
     "url": "https://3ddd.ru/3dmodels/show/bosendorfer_200_1",
     "category": "Не указана",
-    "publishedAt": "Не указана",
-    "checkedAt": "2026-07-19T06:10:47.242Z"
+    "publishedAt": "14 августа 2019",
+    "checkedAt": "2026-07-20T06:28:01.042Z"
   },
   "https://3ddd.ru/3dmodels/show/elyne-dining-chair-01": {
     "title": "Elyne Dining Chair 01",
@@ -17625,11 +17625,11 @@
   },
   "https://3ddd.ru/3dmodels/show/mebelnye-ruchki-brandt-signature-20": {
     "title": "Мебельные ручки Brandt Signature 20",
-    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8914/8914573.6a3ec18983371.jpeg",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8914/8914573.6a3ec18983371.jpeg",
     "url": "https://3ddd.ru/3dmodels/show/mebelnye-ruchki-brandt-signature-20",
     "category": "Не указана",
-    "publishedAt": "Не указана",
-    "checkedAt": "2026-07-19T06:08:50.161Z"
+    "publishedAt": "26 июня 2026",
+    "checkedAt": "2026-07-20T06:26:59.198Z"
   },
   "https://3ddd.ru/3dmodels/show/dvuspalnaia-krovat-lanai-ot-poliform": {
     "title": "Двуспальная кровать Ланай от Полиформ",
@@ -17705,11 +17705,11 @@
   },
   "https://3ddd.ru/3dmodels/show/wooden_blinds_for_the_attic_window": {
     "title": "Wooden blinds for the attic window",
-    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/6474/6474736.662ac9e572df5.jpeg",
+    "imageUrl": "https://b5.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/6474/6474736.662ac9e572df5.jpeg",
     "url": "https://3ddd.ru/3dmodels/show/wooden_blinds_for_the_attic_window",
-    "category": "Не указана",
-    "publishedAt": "Не указана",
-    "checkedAt": "2026-07-19T06:10:27.699Z"
+    "category": "Шторы",
+    "publishedAt": "26 апреля 2024",
+    "checkedAt": "2026-07-20T06:27:14.246Z"
   },
   "https://3ddd.ru/3dmodels/show/lagen-round-table-1": {
     "title": "LAGEN ROUND Table",
@@ -17726,5 +17726,61 @@
     "category": "Техника / Разное",
     "publishedAt": "29 июля 2024",
     "checkedAt": "2026-07-19T06:10:42.815Z"
+  },
+  "https://3ddd.ru/3dmodels/show/3d_marble_mosaic_tiles": {
+    "title": "3D marble mosaic tiles",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/7172/7172503.6734d1e90cff9.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/3d_marble_mosaic_tiles",
+    "category": "Не указана",
+    "publishedAt": "16 ноября 2024",
+    "checkedAt": "2026-07-20T06:27:06.888Z"
+  },
+  "https://3ddd.ru/3dmodels/show/minotti-bezier-coffee-table-3": {
+    "title": "Minotti Bezier Coffee Table",
+    "imageUrl": "https://b5.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8292/8292378.69315bd5098d0.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/minotti-bezier-coffee-table-3",
+    "category": "Столы",
+    "publishedAt": "5 декабря 2025",
+    "checkedAt": "2026-07-20T06:27:22.071Z"
+  },
+  "https://3ddd.ru/3dmodels/show/liustra-tolbot-chandelier-tolbot": {
+    "title": "Люстра “Толбот” Chandelier Tolbot",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8897/8897712.6a37c6bfd7c45.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/liustra-tolbot-chandelier-tolbot",
+    "category": "Подвесной",
+    "publishedAt": "22 июня 2026",
+    "checkedAt": "2026-07-20T06:27:28.858Z"
+  },
+  "https://3ddd.ru/3dmodels/show/painting-96": {
+    "title": "Painting 96",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8895/8895229.6a366f11abffa.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/painting-96",
+    "category": "Багеты",
+    "publishedAt": "20 июня 2026",
+    "checkedAt": "2026-07-20T06:27:35.951Z"
+  },
+  "https://3ddd.ru/3dmodels/show/nydme-curve-bed-2": {
+    "title": "Nydme Curve Bed",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8958/8958630.6a516342120a6.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/nydme-curve-bed-2",
+    "category": "Не указана",
+    "publishedAt": "Не указана",
+    "checkedAt": "2026-07-20T06:27:40.262Z"
+  },
+  "https://3ddd.ru/3dmodels/show/mramornye-mebelnye-ruchki-touchstone": {
+    "title": "Мраморные мебельные ручки TouchStone",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8936/8936732.6a48214dbc789.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/mramornye-mebelnye-ruchki-touchstone",
+    "category": "Разное",
+    "publishedAt": "5 июля 2026",
+    "checkedAt": "2026-07-20T06:27:47.328Z"
+  },
+  "https://3ddd.ru/3dmodels/show/aliuminiievaia_dvier_s_pierieghorodkami": {
+    "title": "Алюминиевая дверь с перегородками",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/0550/550035.573c537ce8917.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/aliuminiievaia_dvier_s_pierieghorodkami",
+    "category": "Двери",
+    "publishedAt": "18 мая 2016",
+    "checkedAt": "2026-07-20T06:27:54.584Z"
   }
 }
