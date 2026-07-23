@@ -15772,8 +15772,8 @@
     "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/4542/4542495.63382e6df274d.jpeg",
     "url": "https://3ddd.ru/3dmodels/show/bosendorfer_200_1",
     "category": "Не указана",
-    "publishedAt": "14 августа 2019",
-    "checkedAt": "2026-07-22T06:07:27.252Z"
+    "publishedAt": "Не указана",
+    "checkedAt": "2026-07-23T06:13:48.720Z"
   },
   "https://3ddd.ru/3dmodels/show/elyne-dining-chair-01": {
     "title": "Elyne Dining Chair 01",
@@ -17873,11 +17873,11 @@
   },
   "https://3ddd.ru/3dmodels/show/equipe-tribeca": {
     "title": "Equipe Tribeca",
-    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8959/8959780.6a5236620cee1.jpeg",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8959/8959780.6a5236620cee1.jpeg",
     "url": "https://3ddd.ru/3dmodels/show/equipe-tribeca",
-    "category": "Не указана",
-    "publishedAt": "Не указана",
-    "checkedAt": "2026-07-22T06:05:25.830Z"
+    "category": "Кафель, Плитка",
+    "publishedAt": "13 июля 2026",
+    "checkedAt": "2026-07-23T06:11:29.264Z"
   },
   "https://3ddd.ru/3dmodels/show/olive-tree-set-298": {
     "title": "Olive Tree Set.298",
@@ -17915,9 +17915,9 @@
     "title": "Laundry Room Vol 04",
     "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8794/8794882.6a0c0dc4402ed.jpeg",
     "url": "https://3ddd.ru/3dmodels/show/laundry-room-vol-04-2",
-    "category": "Не указана",
-    "publishedAt": "Не указана",
-    "checkedAt": "2026-07-22T06:06:41.270Z"
+    "category": "Мебель",
+    "publishedAt": "20 мая 2026",
+    "checkedAt": "2026-07-23T06:12:57.446Z"
   },
   "https://3ddd.ru/3dmodels/show/modern-curtain-015-shtory": {
     "title": "Modern Curtain 015, Шторы",
@@ -18019,9 +18019,9 @@
     "title": "Corner Kitchen 12",
     "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8942/8942087.6a4ae8a97da67.jpeg",
     "url": "https://3ddd.ru/3dmodels/show/corner-kitchen-12",
-    "category": "Не указана",
-    "publishedAt": "Не указана",
-    "checkedAt": "2026-07-22T06:06:52.380Z"
+    "category": "Кухни",
+    "publishedAt": "7 июля 2026",
+    "checkedAt": "2026-07-23T06:13:41.821Z"
   },
   "https://3ddd.ru/3dmodels/show/vkhodnaia-dver-1": {
     "title": "Входная дверь.",
@@ -18054,5 +18054,133 @@
     "category": "Букеты",
     "publishedAt": "4 ноября 2023",
     "checkedAt": "2026-07-22T06:07:20.995Z"
+  },
+  "https://3ddd.ru/3dmodels/show/set-kartin-dlia-detskoi": {
+    "title": "Сет картин для детской",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8882/8882561.6a3118c9b15bc.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/set-kartin-dlia-detskoi",
+    "category": "Багеты",
+    "publishedAt": "16 июня 2026",
+    "checkedAt": "2026-07-23T06:11:36.691Z"
+  },
+  "https://3ddd.ru/3dmodels/show/wall-panel-decor-647": {
+    "title": "Wall Panel Decor 647",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8791/8791203.6a0aa876bbdbf.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/wall-panel-decor-647",
+    "category": "Другие предметы интерьера",
+    "publishedAt": "18 мая 2026",
+    "checkedAt": "2026-07-23T06:11:43.852Z"
+  },
+  "https://3ddd.ru/3dmodels/show/garderobnaia_27": {
+    "title": "Гардеробная 27",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/7145/7145549.6729dee495080.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/garderobnaia_27",
+    "category": "Шкафы",
+    "publishedAt": "8 ноября 2024",
+    "checkedAt": "2026-07-23T06:11:51.019Z"
+  },
+  "https://3ddd.ru/3dmodels/show/mario_bellini_chair_cassina_cab_413": {
+    "title": "Mario bellini chair Cassina Cab 413",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/0814/814214.587620be3fc47.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/mario_bellini_chair_cassina_cab_413",
+    "category": "Не указана",
+    "publishedAt": "Не указана",
+    "checkedAt": "2026-07-23T06:11:58.827Z"
+  },
+  "https://3ddd.ru/3dmodels/show/bathroom-06": {
+    "title": "bathroom 06",
+    "imageUrl": "https://b5.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8914/8914394.6a3eb31001b9e.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/bathroom-06",
+    "category": "Декор для санузла",
+    "publishedAt": "27 июня 2026",
+    "checkedAt": "2026-07-23T06:12:06.090Z"
+  },
+  "https://3ddd.ru/3dmodels/show/poshagovaia_dorozhka_iz_kamnia_003": {
+    "title": "Пошаговая Дорожка из Камня 003",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/7426/7426987.67b09121481bf.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/poshagovaia_dorozhka_iz_kamnia_003",
+    "category": "Не указана",
+    "publishedAt": "16 февраля 2025",
+    "checkedAt": "2026-07-23T06:12:13.177Z"
+  },
+  "https://3ddd.ru/3dmodels/show/wow-micare": {
+    "title": "WOW Micare",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8889/8889794.6a33d330d0155.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/wow-micare",
+    "category": "Не указана",
+    "publishedAt": "20 июня 2026",
+    "checkedAt": "2026-07-23T06:12:20.248Z"
+  },
+  "https://3ddd.ru/3dmodels/show/lyzhnyi_trenazher_dhz_x_8820": {
+    "title": "Лыжный тренажер, DHZ X-8820",
+    "imageUrl": "https://b5.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/5374/5374608.648eb91c3ed04.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/lyzhnyi_trenazher_dhz_x_8820",
+    "category": "Спорт",
+    "publishedAt": "18 июня 2023",
+    "checkedAt": "2026-07-23T06:12:27.511Z"
+  },
+  "https://3ddd.ru/3dmodels/show/baxter-so-good": {
+    "title": "Baxter so good",
+    "imageUrl": "https://b5.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8919/8919556.6a4156419e4ca.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/baxter-so-good",
+    "category": "Кресла",
+    "publishedAt": "29 июня 2026",
+    "checkedAt": "2026-07-23T06:12:35.040Z"
+  },
+  "https://3ddd.ru/3dmodels/show/vstroennaia_vitrina_s_bizhuteriei": {
+    "title": "Встроенная витрина с бижутерией",
+    "imageUrl": "https://b5.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/6399/6399465.6611c9a553d62.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/vstroennaia_vitrina_s_bizhuteriei",
+    "category": "Магазин",
+    "publishedAt": "10 апреля 2024",
+    "checkedAt": "2026-07-23T06:12:42.172Z"
+  },
+  "https://3ddd.ru/3dmodels/show/pillow-set-24": {
+    "title": "Pillow Set 24",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8977/8977917.6a5a0df2082e2.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/pillow-set-24",
+    "category": "Подушки",
+    "publishedAt": "19 июля 2026",
+    "checkedAt": "2026-07-23T06:12:50.025Z"
+  },
+  "https://3ddd.ru/3dmodels/show/suspended-water-drop-pendant-lamp": {
+    "title": "Suspended Water Drop Pendant Lamp",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8962/8962108.6a5389b64063e.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/suspended-water-drop-pendant-lamp",
+    "category": "Подвесной",
+    "publishedAt": "13 июля 2026",
+    "checkedAt": "2026-07-23T06:13:05.069Z"
+  },
+  "https://3ddd.ru/3dmodels/show/vaza-kuria-khudozhnik-keramist-ekaterina-iskusnykh": {
+    "title": "Ваза «Курья». художник-керамист Екатерина Искусных",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8953/8953757.6a4f7815e5f5c.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/vaza-kuria-khudozhnik-keramist-ekaterina-iskusnykh",
+    "category": "Вазы",
+    "publishedAt": "10 июля 2026",
+    "checkedAt": "2026-07-23T06:13:13.542Z"
+  },
+  "https://3ddd.ru/3dmodels/show/sovremennaia-liustra-iz-tkani-s-ozon": {
+    "title": "Современная люстра из ткани с Ozon",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8947/8947134.6a4cdc4bd36d2.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/sovremennaia-liustra-iz-tkani-s-ozon",
+    "category": "Не указана",
+    "publishedAt": "Не указана",
+    "checkedAt": "2026-07-23T06:13:20.052Z"
+  },
+  "https://3ddd.ru/3dmodels/show/sandy-table-and-bay-wood-chair": {
+    "title": "Sandy Table and BAY WOOD Chair",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8950/8950913.6a4e4f778c6f1.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/sandy-table-and-bay-wood-chair",
+    "category": "Не указана",
+    "publishedAt": "9 июля 2026",
+    "checkedAt": "2026-07-23T06:13:27.420Z"
+  },
+  "https://3ddd.ru/3dmodels/show/furniture-composition-1134": {
+    "title": "Furniture Composition 1134",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8946/8946777.6a4cbc56f3a76.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/furniture-composition-1134",
+    "category": "Шкафы",
+    "publishedAt": "8 июля 2026",
+    "checkedAt": "2026-07-23T06:13:34.665Z"
   }
 }
