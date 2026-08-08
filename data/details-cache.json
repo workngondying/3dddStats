@@ -19665,11 +19665,11 @@
   },
   "https://3ddd.ru/3dmodels/show/dveri-s-frezerovkoi-v-shpone-duba-02": {
     "title": "Двери с фрезеровкой в шпоне дуба 02",
-    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8847/8847083.6a21d7d10036b.png",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8847/8847083.6a21d7d10036b.png",
     "url": "https://3ddd.ru/3dmodels/show/dveri-s-frezerovkoi-v-shpone-duba-02",
-    "category": "Не указана",
-    "publishedAt": "Не указана",
-    "checkedAt": "2026-08-07T05:05:48.275Z"
+    "category": "Двери",
+    "publishedAt": "6 июня 2026",
+    "checkedAt": "2026-08-08T04:29:53.621Z"
   },
   "https://3ddd.ru/3dmodels/show/modern-double-bed-030": {
     "title": "Modern Double Bed - 030",
@@ -19710,5 +19710,45 @@
     "category": "Разное",
     "publishedAt": "12 ноября 2024",
     "checkedAt": "2026-08-07T05:06:30.326Z"
+  },
+  "https://3ddd.ru/3dmodels/show/decorative-set-167-1": {
+    "title": "Decorative Set 167",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/9027/9027799.6a6fbcb6397d5.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/decorative-set-167-1",
+    "category": "Декоративный набор",
+    "publishedAt": "4 августа 2026",
+    "checkedAt": "2026-08-08T04:29:38.442Z"
+  },
+  "https://3ddd.ru/3dmodels/show/ceiling_drapery_second_light": {
+    "title": "Ceiling Drapery - Second Light",
+    "imageUrl": "https://b6.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/6666/6666530.666d8b9589694.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/ceiling_drapery_second_light",
+    "category": "Другие предметы интерьера",
+    "publishedAt": "17 июня 2024",
+    "checkedAt": "2026-08-08T04:29:44.853Z"
+  },
+  "https://3ddd.ru/3dmodels/show/archibald_task_office_chair": {
+    "title": "Archibald Task Office chair",
+    "imageUrl": "https://b5.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/6715/6715338.66801f65b5c94.png",
+    "url": "https://3ddd.ru/3dmodels/show/archibald_task_office_chair",
+    "category": "Офисная мебель",
+    "publishedAt": "30 июня 2024",
+    "checkedAt": "2026-08-08T04:30:02.073Z"
+  },
+  "https://3ddd.ru/3dmodels/show/magnitnaia-doska-zara-home": {
+    "title": "Магнитная доска Zara Home",
+    "imageUrl": "https://b5.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8064/8064763.68d12f0e067a8.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/magnitnaia-doska-zara-home",
+    "category": "Декор / Другие предметы интерьера",
+    "publishedAt": "23 сентября 2025",
+    "checkedAt": "2026-08-08T04:30:10.701Z"
+  },
+  "https://3ddd.ru/3dmodels/show/villmar-lampatron": {
+    "title": "VILLMAR lampatron",
+    "imageUrl": "https://b4.3ddd.ru/media/cache/models-list-webp/model_images/0000/0000/8604/8604824.69b5a0b3debac.jpeg",
+    "url": "https://3ddd.ru/3dmodels/show/villmar-lampatron",
+    "category": "Бра",
+    "publishedAt": "16 марта 2026",
+    "checkedAt": "2026-08-08T04:30:19.505Z"
   }
 }
